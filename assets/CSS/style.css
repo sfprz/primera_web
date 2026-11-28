@@ -1,6 +1,85 @@
 selector 
-* {
+*{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Time New Roman', serif;
-    flood-color: #198bd6b1;
+    font-family: 'Times New Roman', Times, serif
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+.main-menu {
+    background-color: #B5654A;
+    padding: 0.1rem 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.main-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4A3426;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: #f3c297;
+}
+
+.main-banner {
+    background-image: url('../images/imagen-4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff9f6;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+@media (width >= 768px) {
+    .galeria img {
+        width: calc(50% - 8px);
+    }
+}
+
+@media (width >= 1024px) {
+    .galeria img {
+        width: calc(33.333% - 11px);
+    }
+}
+
+
+

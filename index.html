@@ -3,46 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi Pagina Web</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Mi Página Web</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     
-<body>
-    <header>
-        <nav class="main-menu">
-            <ul>
-                <li> <a href="#servicios"> Servicios </a> </li>
-                <li> <a href="#galeria"> Galeria </a> </li>
-                <li> <a href="#nosotros"> Nosotros </a> </li>
-                <li> <a href="#contacto"> Contacto </a> </li>
-            </ul>
-        </nav>
-        <div class="main-banner">
-            <h1>Bienvenidos a mi página web</h1>
+    <body>
+        <header>
+            <nav class="main-menu">
+                <ul>
+                    <li> <a href="#servicios"> Servicios </a> </li>
+                    <li> <a href="#galeria"> Galería </a> </li>
+                    <li> <a href="#nosotros"> Nosotros </a> </li>   
+                </ul>
+            </nav>
+            <div class="main-banner">
+                <h1>Bienvenidos a mi página web</h1>
+            </div>
+        </header>
+        <div class="contacto-rapido">
+        <!-- poner numero -->
+            <a href="#">Contáctate con nosotros</a>
         </div>
-    </header>
-    <main>
-        <section>
-            <h2>Servicios</h2>
-        </section>
-        <section>
-            <h2>Galeria</h2>
-            <p>Imágenes de nuestro trabajo.</p>
-        </section>
-        <section>
-            <h2>Nosotros</h2>
-            <p>Conoce más sobre nosotros y quienes somos.</p>
-        </section>
-    </main>
-<footer>
-    <section>
-        <h3>Informacion del programador</h3>
-            <p>Github: https://github.com/sfprz</p>
-        </section>
-        <section>
-            <h3>Contacto</h3>
-    </section>
-</footer>
+        <main>
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <div class="tarjetas">
+                    <article>
+                        <h3>Muebles a medida</h3>
+                        <p>Diseñamos y fabricamos muebles a medida para tu hogar o negocio.</p>
+                    </article>
+                    <article>
+                        <h3>Decoración de interiores</h3>
+                        <p>Diseñamos espacios de interiores para que se vean increíbles.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="galeria">
+                <h2>Galería</h2>
+                <p>Imágenes de nuestro trabajo.</p>
+                <div class="galeria">
+                    <img src="./assets/images/imagen-1.jpg" alt="Acabado en madera">
+                    <img src="./assets/images/imagen-2.jpg" alt="Mueble de madera">
+                    <img src="./assets/images/imagen-3.jpg" alt="Decoración de interior en madera">
+                </div>
+            </section>
+            <section id="nosotros">
+                <h2>Nosotros</h2>
+                <p>Conoce más sobre nosotros y quiénes somos.</p>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <h3>Información del programador</h3> 
+                <a href="https://github.com/sfprz" target="_blank" rel="noopener">Github</a>
+                <!-- poner numero -->
+                <a href="#">Contáctate</a>
+            </section>
+        </footer>
     
 </body>
 
