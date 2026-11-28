@@ -56,6 +56,28 @@ html {
     align-items: center;
     text-align: center;
     color: #fff9f6;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.contacto-rapido {
+    background-color: #B5654A;
+    padding: 0.1rem;
+    text-align: right;
+}
+
+.contacto-rapido a {
+    text-decoration: none;
+    color: #4A3426;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.contacto-rapido a:hover {
+    color: #f3c297;
 }
 
 .galeria {
